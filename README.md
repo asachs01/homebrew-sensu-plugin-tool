@@ -19,7 +19,7 @@ brew install sensu-plugin-tool
 
 ## Formulas
 
-#### [`sensu-go`][1]
+#### [`sensu-plugin-tool`][1]
 
 ```
 brew update
