@@ -14,5 +14,3 @@ class SensuPluginTool < Formula
         system "#{bin}/sensu-plugin-tool", "--help"
     end
 end
-
-https://github.com/sensu-community/sensu-plugin-tool/releases/download/#{version}/sensu-plugin-tool_#{version}_darwin_amd64.tar.gz

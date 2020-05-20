@@ -8,7 +8,7 @@ To install a formula:
 
 ```
 brew update
-brew tap sensu-community/sensu-plugin-tool
+brew tap asachs01/sensu-plugin-tool
 ```
 
 Then:
@@ -23,7 +23,7 @@ brew install sensu-plugin-tool
 
 ```
 brew update
-brew tap sensu-community/sensu-plugin-tool
+brew tap asachs01/sensu-plugin-tool
 brew install sensu-plugin-tool
 ```
 
