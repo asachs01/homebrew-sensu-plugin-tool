@@ -11,6 +11,6 @@ class SensuPluginTool < Formula
     end
     
     test do
-        system "#{bin}/sensu-plugin-tool", "--help"
+        system "#{bin}/bin/sensu-plugin-tool", "--help"
     end
 end
