@@ -10,7 +10,4 @@ class SensuPluginTool < Formula
         bin.install "sensu-plugin-tool"
     end
     
-    test do
-        system "#{bin}/bin/sensu-plugin-tool", "--help"
-    end
 end
