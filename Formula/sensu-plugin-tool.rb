@@ -7,7 +7,10 @@ class SensuPluginTool < Formula
     sha256 "7fc5f2b7bf155fc6613258474541c79fd2878e5f6415de93e67c49cfe6d65470"
 
     def install
-        bin.install "sensu-plugin-tool"
+        bin.install "bin/sensu-plugin-tool"
     end
     
+    test do
+        system "#{bin}/sensu-plugin-tool", "--help"
+    end
 end
